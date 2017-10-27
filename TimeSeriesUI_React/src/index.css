@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+ul > li {
+  margin: 15px 0px;
+  list-style-type: none;
+}
+
+ul > li:nth-child(odd) {
+  background-color:rgba(0,0,0,0.1)
+}
+
+b{
+    color: blue;
+}
+#apps{
+    padding: 10px; 
+    margin: 10px;
+}
+
+#charts {
+    background-color:lightgray;
+    align-content: center;
+    column-count: 3;
+    border-style: groove;
+    padding:25px;
+}
+h2{
+    margin:auto;    
+    padding: 20px
+}
+.container{
+    border-style: dashed;
+    width: 400px
+}
